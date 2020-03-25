@@ -16,8 +16,6 @@ public class Demo extends Sample
 		Demo d1 = new Demo();
 		System.out.println(d1.v2);
 		d1.test2();
-		
-		
 
 		System.out.println("Program ends...");
 	}
