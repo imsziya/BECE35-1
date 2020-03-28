@@ -50,7 +50,9 @@ Object class
       if they are same else it returns false.
   
   
-  
+    * If you print the reference variable then println()
+      will implicitly call the toString() and prints
+      returned value.
   
   
   
