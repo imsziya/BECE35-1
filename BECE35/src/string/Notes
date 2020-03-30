@@ -1,0 +1,63 @@
+* String value is group of chars written within double quotes
+
+* In java String is a class which is used to store group of
+  chars the String object.
+  
+* String class is immediate sub-class of Object class
+
+* String class implements Serializable, Comparable<String>, CharSequence interfaces
+
+* String class is final and it cannot be inherited.
+
+* hashCode() of Object class is overriden in String class
+  which returns an integer value that is generated based on
+  unicode values of every character present in given String
+  
+* toString() of Object class is overriden in String class
+  which returns the string value present in given string
+  object.
+  
+* equals() of Object class is overriden in String class
+  which compares characters present in given 2 strings
+  and returns true if they are same else returns false
+  
+* String objects are created in special memory area called string pool in heap areaa
+  
+* The String pool consist of two parts 
+  1.Constant pool
+  2.Non-constant pool
+  
+* String objects can be created in 2 diff ways
+  1. By using new operator
+  2. Without using new operator
+  
+* If you create a String object without using new operator then the object will be
+  created in Constant pool.
+  
+* If you create a String object by using new operator then the object will be 
+  created in non-constant pool.
+  
+ Note : == operator compares address of given two Objects.
+ 
+ * Within constant pool duplicates are not allowed.
+ 
+ * Within non-constant pool duplicates are allowed. 
+ 
+ * If you create any string object in following format then the resultant string object
+   will be created in non-constant pool.
+   
+   "" + Svar
+   Svar + ""
+   Svar + Svar
+   
+   
+   
+   
+  
+  
+  
+  
+  
+  
+    
+  
